@@ -1,5 +1,6 @@
 # face_ripper
 This proportionally grabs video frames from batches of mp4 videos and builds a faceset of your desired face.
+It sorts by recognizing the number of faces in a picture AND by recognizing the faces you do, and do not want.
 
 By the time you have run all these scripts you should be left with a folder containing thousands of photos.
 Each photo in this folder will be a picture with exactly one face.
