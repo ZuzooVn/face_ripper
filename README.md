@@ -10,7 +10,7 @@ Each script's output is the next script's input.
 It's a good idea to make a backup, zip copy of every script's output before proceeding to the next one.
 
 Play with the scripts with directories containing small amounts of jpgs at first so you make sure everything
-is grabbing and putting everything to, and from where you want.
+is grabbing and putting everything to, and from the places you want.
 
 Your MP4 videos should be 1080p if not higher. As of yet there is nothing in this repo that removes a low rez/
 face shot far from the camera image. ALTHOUGH most small faces far from the camera WILL BE removed because a frame with
