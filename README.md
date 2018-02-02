@@ -12,6 +12,11 @@ It's a good idea to make a backup, zip copy of every script's output before proc
 Play with the scripts with directories containing small amounts of jpgs at first so you make sure everything
 is grabbing and putting everything to, and from where you want.
 
+Your MP4 videos should be 1080p if not higher. As of yet there is nothing in this repo that removes a low rez/
+face shot far from the camera image.
+
+This code does not crop the faces.
+
 # Dependancies
 These scripts are dependant on the face_recognition app by ageitgey here https://github.com/ageitgey/face_recognition
 
