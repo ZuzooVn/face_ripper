@@ -6,6 +6,7 @@ They face in each photo will be face of the specific person you wanted extraced 
 
 These scripts should be used in numerical order.
 Each script's output is the next script's input.
+It's a good idea to make a backup, zip copy of every script's output before proceeding to the next one.
 
 Play with the scripts with directories containing small amounts of jpgs at first so you make sure everything
 is grabbing and putting everything to, and from where you want.
