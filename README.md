@@ -21,6 +21,7 @@ lone in the frame you may want to edit those parts out of your MP4s before using
 It's good to suppliment your faceset with photographs. This Firefox addon scrapes Google Image searches.
 https://addons.mozilla.org/en-US/firefox/addon/google-images-downloader/
 Be sure to open up this dir's download folder and delete all images below x size of KB.
+Skip scripts numbered 1 and 2 and feed your images into script number 3.
 
 This code does not crop the faces.
 
