@@ -30,20 +30,21 @@ import os, random
 from PIL import Image
 import face_recognition
 
+one_face = ('/PATH/CREATING/JPG/OUTPUT/FILE/DIR/FACES/YOU/WANT')
 try:
-	if not os.makedirs('/home/eagle/Aly/_0_0_0_kaylee/faced'):
-		os.makedirs('/home/eagle/Aly/_0_0_0_kaylee/faced')
+	if not os.makedirs(one_face):
+		os.makedirs(one_face)
 except OSError:
 	print ('Error: Creating directory of data')
 
-trash = ('/home/eagle/Aly/_0_0_0_kaylee/trash_face')
+trash = ('/PATH/CREATING/JPG/OUTPUT/FILE/DIR/FACES/YOU/DONT/WANT')
 try:
 	if not os.path.exists(trash):
 		os.makedirs(trash)
 except OSError:
 	print ('Error: Creating directory of data')
 
-problem_file = ('/home/eagle/Aly/_0_0_0_kaylee/problem_file')
+problem_file = ('/PATH/CREATING/JPG/OUTPUT/FILE/DIR/FACES/YOU/MIGHT/WANT/TO/MOVE/AND/RUN/AGAIN')
 try:
 	if not os.path.exists(problem_file):
 		os.makedirs(problem_file)
@@ -53,7 +54,7 @@ except OSError:
 for i in range (3):
 
 	# Load the jpg file into a numpy array
-	aly = (random.choice(glob.glob('/home/eagle/Aly/_0_0_0_kaylee/samped/'+'*.jpg')))
+	aly = (random.choice(glob.glob('/PATH/OF/JPG/INPUT/DIRS/'+'*.jpg')))
 	image = face_recognition.load_image_file(aly)
 
 	print (str(aly))
@@ -70,7 +71,7 @@ for i in range (3):
 	if not (len(face_locations)) == 1:
 		os.rename(aly, trash + '/' + str(uuid.uuid4()) + '.jpg')
 	try:
-		os.rename(aly, '/home/eagle/Aly/_0_0_0_kaylee/faced/' + str(uuid.uuid4()) + '.jpg')
+		os.rename(aly, one_face + str(uuid.uuid4()) + '.jpg')
 	except:
 		pass
 #	except:
