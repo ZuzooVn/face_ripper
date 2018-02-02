@@ -22,4 +22,4 @@ These scripts are dependant on the face_recognition app by ageitgey here https:/
 
 All dependancies required to run that are the depancies needed to be installed to run this.
 
-If you have a GPU you should set up dlib in order to use your GPU
+If you have a GPU you must set up in a specific way dlib in order to use your GPU
