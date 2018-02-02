@@ -13,7 +13,14 @@ Play with the scripts with directories containing small amounts of jpgs at first
 is grabbing and putting everything to, and from where you want.
 
 Your MP4 videos should be 1080p if not higher. As of yet there is nothing in this repo that removes a low rez/
-face shot far from the camera image.
+face shot far from the camera image. ALTHOUGH most small faces far from the camera WILL BE removed because a frame with
+a face far away from the camera USUALLY has more than one face in the frame. Any frame>photo with more than one face
+is automatically removed during the process. If you have a lot of footage of your target face going far from the camera,
+lone in the frame you may want to edit those parts out of your MP4s before using here.
+
+It's good to suppliment your faceset with photographs. This Firefox addon scrapes Google Image searches.
+https://addons.mozilla.org/en-US/firefox/addon/google-images-downloader/
+Be sure to open up this dir's download folder and delete all images below x size of KB.
 
 This code does not crop the faces.
 
