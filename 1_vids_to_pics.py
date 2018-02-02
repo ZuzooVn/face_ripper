@@ -69,7 +69,7 @@ for i in range(9):
 
 
 
-# We will now process the images created by this script in the next script, 2_copy.py
+# We will now process the images created by this script in the next script, 2_ration.py
 
 # Make a back up of the images this script created before going on to the next step.
 # Compress it into a .zip file to ensure it is untouched in case you need to redo the next step
