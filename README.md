@@ -1,5 +1,5 @@
 # face_ripper
-Takes frames from batches of mp4 videos and builds an evenly represented (from the videos) faceset.
+This proportionally grabs video frames from batches of mp4 videos and builds a faceset of your desired face.
 By the time you have run all these scripts you should be left with a folder containing thousands of photos.
 Each photo in this folder will be a picture with exactly one face.
 They face in each photo will be face of the specific person you wanted extraced from your mp4 videos.
