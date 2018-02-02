@@ -32,4 +32,4 @@ All dependancies required to run that (face_recognition module) are the depancie
 So, go get face_recognition installed and tested first and then you should be good to go with this repo.
 
 face_recognition requires a package called dlib.
-If you have a GPU you must install dlib in a specific way in order to use your GPU.
+If you have a GPU you must install dlib in a specific way in order to get it to use your GPU.
