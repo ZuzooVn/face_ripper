@@ -10,9 +10,9 @@ and 1080p Kristen Stewart five minute interviews rather than to feed entire movi
 ----------
 
 After you have assembled your dozen(s) (of) mp4 video clips into one file, make a backup of them and run this script.
-Your file of videos will be selected by this script on line 29. Replace the path on line 29 with your video file's path.
+Your file of videos will be selected by this script on line 40. Replace the path on line 40 with your video file's path.
 Replace each video file with a folder of photos of every from of your video. This go in the same folder as your video's.
-This path is on 33, 34, and 50. A new folder called 'vidpics' with a number at the end (ex 'vidpics1') will be created
+This path is on 34, 35, and 51. A new folder called 'vidpics' with a number at the end (ex 'vidpics1') will be created
 for each video.
 
 This is going to remove each mp4 file after using it, so that it doesn't render the same video twice.
@@ -31,13 +31,13 @@ count2 = 1
 for i in range(9):
 	try:
 		try:
-			if not os.path.exists('/home/eagle/Aly/_0_0_0_kaylee/vidpics' + str(count) + '/'):
-				os.makedirs('/home/eagle/Aly/_0_0_0_kaylee/vidpics' + str(count) + '/')
+			if not os.path.exists('/PATH/CREATING/JPG/OUTOUT/DIR/vidpics' + str(count) + '/'):
+				os.makedirs('/PATH/CREATING/JPG/OUTPUT/DIR//vidpics' + str(count) + '/')
 		except OSError:
 			print ('Error: Creating directory of data')
 		vid = True
 		while(vid):
-			vid = random.choice(glob.glob('/home/eagle/Aly/_0_0_0_kaylee/'+'*.mp4'))
+			vid = random.choice(glob.glob('/PATH/OF/MP4/INPUT/DIR/'+'*.mp4'))
 			cap = cv2.VideoCapture(vid)
 				
 			currentFrame = 0
@@ -48,7 +48,7 @@ for i in range(9):
 
 				# Saves image of the current frame in jpg file
 
-				name = ('/home/eagle/Aly/_0_0_0_kaylee/vidpics' + str(count) + '/' + str(uuid.uuid4()) + '.jpg')
+				name = ('/PATH/CREATING/JPG/OUTPUT/FILE/DIR' + str(count) + '/' + str(uuid.uuid4()) + '.jpg')
 				print ('Creating...' + name)
 				cv2.imwrite(name, frame)
 				count2 += 1
@@ -73,23 +73,3 @@ for i in range(9):
 
 # Make a back up of the images this script created before going on to the next step.
 # Compress it into a .zip file to ensure it is untouched in case you need to redo the next step
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
