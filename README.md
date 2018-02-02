@@ -28,7 +28,8 @@ This code does not crop the faces.
 # Dependancies
 These scripts are dependant on the face_recognition app by ageitgey here https://github.com/ageitgey/face_recognition
 
-All dependancies required to run that are the depancies needed to be installed to run this. So go to that page, set it
-up in your env, then come back here.
+All dependancies required to run that (face_recognition module) are the depancies needed to be installed to run this.
+So, go get face_recognition installed and tested first and then you should be good to go with this repo.
 
+face_recognition requires a package called dlib.
 If you have a GPU you must install dlib in a specific way in order to use your GPU.
