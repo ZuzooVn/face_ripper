@@ -4,7 +4,7 @@ It sorts by recognizing the number of faces in a picture AND by recognizing the 
 
 By the time you have run all these scripts you should be left with a folder containing thousands of jpgs.
 Each jpg in this folder will be a picture with exactly one face.
-The face in each jpg will be face of the specific person you wanted extraced from your mp4 videos.
+The face in each jpg will be the face of the specific person you wanted extraced from your mp4 videos.
 
 These scripts should be used in numerical order.
 Each script's output is the next script's input.
